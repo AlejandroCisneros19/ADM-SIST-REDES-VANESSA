@@ -1,0 +1,25 @@
+*pregunta 1
+CI: es una práctica que implica a los desarrolladores realizar pequeños cambios y comprobaciones en el código desarrollado.
+CD: en tanto, es la entrega automatizada con los códigos completos del software a entornos como pruebas y desarrollo.
+
+*pregunta 2
+1-Entregar software con menos riesgo. Los pipelines de CI/CD estandarizan los procesos de lanzamiento en todos los proyectos. 
+  Al probar cada cambio en el código fuente, reducimos las posibilidades de introducir errores.
+2-Utiliza características con más frecuencia. Una herramienta de CI/CD habitualmente permite ver el progreso de un pipeline desde el commit 
+  hasta la puesta en marcha producción en una sola pantalla. Puede navegar por etapas, detectar ineficiencias y optimizar el proceso.
+3-Entregue el producto que los usuarios necesitan. La entrega de actualizaciones periódicas conduce a más comentarios de los usuarios. 
+  En ese proceso se pueden ir probando las versiones beta de productos con clientes reales. De esta manera, evitas invertir en características que
+  los clientes no necesitan.
+4-Mejora la productividad de los desarrolladores. Utilizar CI/CD guía la gestión de productos para optimizar el impacto del usuario. Los desarrolladores 
+  implementan el código mientras tienen la idea de ello.
+
+*pregunta 3
+-Ambiente de produccion: Es un termino para referirse a toda la infraestructura de hardware y software, requeridos para que el usuario 
+final pueda usar un producto. Entendiendo por producto, un programa informático de cualquier tipo.
+-Staging:
+Se entiende por Staging Area el sistema que permanece entre las fuentes de datos y el data warehouse con el objetivo de:
+   .Facilitar la extracción de datos (los procesos ETL) desde las fuentes de origen de carácter múltiple realizando un pretratado.
+   .Realizar lo que se conoce como data cleansing (limpieza de datos).
+   .Mejorar la calidad de datos.
+-Pruebas: La prueba de software es el proceso de evaluación y verificación de un producto o aplicación de software para saber si hace lo que se supone que debe hacer. 
+Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.
