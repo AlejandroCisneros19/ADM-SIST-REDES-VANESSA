@@ -18,5 +18,7 @@ jobs:
 
       - name: echo a pwd
         run: pwd
- 
+      
+      - name: echo a cd
+        run: cd 
               
