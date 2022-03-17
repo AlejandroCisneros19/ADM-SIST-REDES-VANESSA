@@ -25,6 +25,9 @@ jobs:
       - name: echo a ls 
         run: ls /home/runner/work/Cisneros-Desarrollo-de-sistema/Cisneros-Desarrollo-de-sistema
         
+      - name: mkdir 
+        run: mkdir prueba
+        
       - name: echo a cp
-        run: cp -r Cisneros-Desarrollo-de-sistema/Cisneros-Desarrollo-de-sistema
+        run:
 
