@@ -28,6 +28,3 @@ jobs:
       - name: mkdir 
         run: mkdir prueba
         
-      - name: echo a cp
-        run:
-
