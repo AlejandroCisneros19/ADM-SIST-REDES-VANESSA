@@ -16,9 +16,7 @@ jobs:
       - name: echo a string
         run: echo "hello world"
 
-      - name: echo a ls
-        run: | 
-              mkd prueba 
-              cd prueba
-              ls 
+      - name: echo a pwd
+        run: pwd
+ 
               
