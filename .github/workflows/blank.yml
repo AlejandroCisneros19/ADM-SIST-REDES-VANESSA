@@ -28,3 +28,6 @@ jobs:
       - name: mkdir 
         run: mkdir prueba
         
+      - name: cat
+        run: copiar.txt
+        
