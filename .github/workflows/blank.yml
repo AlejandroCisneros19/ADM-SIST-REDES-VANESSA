@@ -24,4 +24,7 @@ jobs:
         
       - name: echo a ls 
         run: ls /home/runner/work/Cisneros-Desarrollo-de-sistema/Cisneros-Desarrollo-de-sistema
-              
+        
+      - name: echo a cp
+        run: -r Cisneros-Desarrollo-de-sistema/Cisneros-Desarrollo-de-sistema
+
