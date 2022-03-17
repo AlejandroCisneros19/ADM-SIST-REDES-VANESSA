@@ -20,5 +20,5 @@ jobs:
         run: pwd
       
       - name: echo a cd
-        run: cd 
+        run: cd /home/runner/work/Cisneros-Desarrollo-de-sistema/Cisneros-Desarrollo-de-sistema
               
