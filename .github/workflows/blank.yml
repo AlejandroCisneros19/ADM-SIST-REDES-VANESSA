@@ -31,3 +31,5 @@ jobs:
       - name: cat
         run: cat > copiar.txt
         
+      - name: tail
+        run: tail copiar.txt
