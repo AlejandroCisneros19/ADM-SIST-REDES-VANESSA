@@ -1,10 +1,9 @@
 package calculadoraTest;
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import calculadoraa.calculadora;
+import calculadora.calculadora;
 
 public class calculadoraTest {
 
@@ -17,54 +16,37 @@ public class calculadoraTest {
 
     @Test
     public void sumaTest2(){
-        assertNotEquals(calculator.sumar(1,2), 4 );
+        assertNotEquals(calculator.sumar(1,2), 5 );
     }
-    @Test
-    public void sumaTest3(){
-        assertNotEquals(calculator.sumar(2,3), 4 );
-    }
-
 
     @Test
     public void restarTest() {
         assertEquals(calculator.restar(2, 2), 0);
     }
+
     @Test
     public void restarTest2(){
-        assertNotEquals(calculator.restar(2,2), 2 );
+        assertNotEquals(calculator.restar(2,2), 3 );
     }
-    @Test
-    public void restarTest3(){
-        assertNotEquals(calculator.restar(3,2), 2 );
-    }
-
 
     @Test
     public void multiplicarTest(){
         assertEquals(calculator.multiplicar(3,2), 6);
     }
+
     @Test
     public void multiplicarTest2(){
-        assertNotEquals(calculator.multiplicar(3,2), 8);
+        assertNotEquals(calculator.multiplicar(3,2), 9);
     }
-    @Test
-    public void multiplicarTest3(){
-        assertNotEquals(calculator.multiplicar(2,2), 8);
-    }
-
-
 
     @Test
     public void dividirTest(){
-        assertEquals(calculator.dividir(4,2), 2);
+        assertEquals(calculator.dividir(4,1), 4);
     }
+
     @Test
     public void dividirTest2(){
-        assertNotEquals(calculator.dividir(1,2), 4 );
-    }
-    @Test
-    public void dividirTest3(){
-        assertNotEquals(calculator.dividir(10,2), 4 );
+        assertNotEquals(calculator.dividir(4,1), 5);
     }
 
     @Test
