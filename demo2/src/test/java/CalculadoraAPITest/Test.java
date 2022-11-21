@@ -1,6 +1,9 @@
 package CalculadoraAPITest;
 
-import main.java.CalculadoraApi.Api;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import java/CalculadoraAPI/Api.java;
 
 public class Test {
 
