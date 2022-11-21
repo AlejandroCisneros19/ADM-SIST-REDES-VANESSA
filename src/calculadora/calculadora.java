@@ -17,7 +17,7 @@ public class calculadora {
         return numero1 / numero2;
     }
 
-    public double raizCuadratica(int a, int b, int c){
+    public double Cuadratica(int a, int b, int c){
         return (-b +- Math.sqrt( (b*b)-(4*a*c) ) )/2*a;
     }
 }
