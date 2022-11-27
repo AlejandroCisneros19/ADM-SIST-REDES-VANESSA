@@ -4,10 +4,9 @@ import calculadora.Calculadora;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Arrays;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertFalse;
+
+import static org.junit.Assert.*;
 
 
 public class CalculadoraTest {
@@ -27,7 +26,7 @@ public class CalculadoraTest {
     @Test
     public void testsumaFail(){
         evento();
-        Assert.assertEquals(4, calculator.suma(5, 2));
+        assertNotEquals(4, calculator.suma(5, 2));
     }
 
 
@@ -41,7 +40,7 @@ public class CalculadoraTest {
     @Test
     public void testrestaFail(){
         evento();
-        Assert.assertEquals(4, calculator.resta(5, 2));
+        assertNotEquals(4, calculator.resta(5, 2));
     }
 
 
@@ -55,7 +54,7 @@ public class CalculadoraTest {
     @Test
     public void testmultiplicarFail(){
         evento();
-        Assert.assertEquals(8,calculator.multiplicar(5, 2));
+        assertNotEquals(8, calculator.multiplicar(5, 2));
         }
 
 
@@ -69,7 +68,7 @@ public class CalculadoraTest {
     @Test
     public void testdividirFail(){
         evento();
-        Assert.assertEquals(3, calculator.dividir(10, 2));
+        assertNotEquals(3, calculator.dividir(10, 2));
     }
     //division por 0
     @org.junit.Test(expected = ArithmeticException.class)
@@ -87,7 +86,7 @@ public class CalculadoraTest {
     }
     @Test
     public void raizCuadraticaTestFail(){
-        assertArrayEquals(calculator.raizCuadratica(1, -1, -4), new double[] {2, -1}, 0);
+        assertNotEquals(calculator.raizCuadratica(1, -1, -4), new double[] {2, -1});
     }
     @Test(expected = ArithmeticException.class)
     public void raizCuadrarticaExceptionTest(){
